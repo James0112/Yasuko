@@ -1,4 +1,13 @@
-# Yasuko
+#使用前必读：
+需跟新以下自定义配置：
+ 1. post.hbs中的多说配置
+ 2. default.hbs顶部百度统计代码
+ 3. default.hbs底部GA统计代码
+ 4. default.hbs 顶部 谷歌Plus 请修改成自己的GP地址（谷歌搜索的时候会显示作者信息）
+ 5. 微信浏览器中增加适配，滑动到底部的时候，自动弹出公众号图片，若不需要，请删除js/base.js中相关代码。例General.isweixin == true。
+
+---
+#Yasuko
 
 ![](https://luoleiorg.b0.upaiyun.com/blog/2015/12/yasuko2.jpg)
 
