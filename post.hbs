@@ -9,8 +9,8 @@
     <img src="{{image}}!wechatsmall" class="wechat-only">
     <header id="header" class="home-header blog-background banner-mask lazy" data-url="{{image}}">
 {{else}}
-    <img src="http://" class="hide">
-    <header id="header" class="home-header blog-background banner-mask lazy" data-url="http://" style="background-image:no-cover">
+    <img src="" class="hide">
+    <header id="header" class="home-header blog-background banner-mask lazy" data-url="https://jispace.b0.upaiyun.com/tmp/bg.jpg" style="background-image:no-cover">
     {{/if}}
 
         <div class="nav-header">
@@ -71,7 +71,7 @@
 
         {{#author}}
             <section class="author">
-                     {{#if image}}  
+                     {{#if image}}
                 <figure class="author-image">
                     <a class="img" href="javascript:;" style="background-image: url('{{image}}')"><span class="hide">{{name}}'s Picture</span></a>
                 </figure>
@@ -144,7 +144,7 @@
         <script type="text/javascript">
             var disqus_shortname = 'jispace'; // required: replace example with your forum shortname
             var disqus_identifier = '{{post.id}}';
-         
+
             /* * * DON'T EDIT BELOW THIS LINE * * */
             (function() {
                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
